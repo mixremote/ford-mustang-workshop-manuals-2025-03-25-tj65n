@@ -1,11 +1,20 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ford Mustang Workshop Manuals - Expert Auto Repair Guides</title>
     <meta name="description" content="Download comprehensive Ford Mustang workshop manuals for expert auto repair and maintenance. Access engine diagrams, wiring diagrams, and DIY repair guides.">
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <script defer src="https://unpkg.com/@alpinejs/collapse@3.x.x/dist/cdn.min.js"></script>
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
@@ -13,40 +22,66 @@
     <header class="fixed w-full bg-gray-900/95 backdrop-blur-sm z-50 border-b border-gray-800">
         <nav class="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
             <div class="flex items-center justify-between">
-                <a href="#" class="text-2xl font-bold bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
+                <a href="https://mixremote.github.io/ford-mustang-workshop-manuals-2025-03-25-tj65n" class="text-2xl font-bold bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent hover:scale-105 transition-transform duration-300">
                     Mustang Manuals
                 </a>
+                
+                <!-- Desktop Menu -->
                 <div class="hidden md:flex space-x-8">
-                    <a href="#features" class="text-gray-300 hover:text-white transition-colors duration-300">Features</a>
-                    <a href="#benefits" class="text-gray-300 hover:text-white transition-colors duration-300">Benefits</a>
-                    <a href="#faq" class="text-gray-300 hover:text-white transition-colors duration-300">FAQ</a>
-                    <a href="#contact" class="text-gray-300 hover:text-white transition-colors duration-300">Contact</a>
+                    <a href="#features" class="text-gray-300 hover:text-white hover:scale-105 transition-all duration-300">Features</a>
+                    <a href="#benefits" class="text-gray-300 hover:text-white hover:scale-105 transition-all duration-300">Benefits</a>
+                    <a href="#testimonials" class="text-gray-300 hover:text-white hover:scale-105 transition-all duration-300">Testimonials</a>
+                    <a href="#about" class="text-gray-300 hover:text-white hover:scale-105 transition-all duration-300">About</a>
+                    <a href="#faq" class="text-gray-300 hover:text-white hover:scale-105 transition-all duration-300">FAQ</a>
                 </div>
-                <a href="https://carmanuals.org/shop/?make=Ford&model=Mustang" class="hidden md:block px-6 py-2 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full font-semibold hover:scale-105 transition-transform duration-300">
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-button md:hidden p-2 rounded-lg hover:bg-gray-800 transition-colors duration-300" aria-label="Toggle Menu">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+
+                <a href="https://carmanuals.org/shop/?make=Ford&model=Mustang" class="hidden md:block px-6 py-2 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full font-semibold hover:scale-105 transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/20">
                     Get Manual
                 </a>
+            </div>
+
+            <!-- Mobile Menu Dropdown -->
+            <div class="mobile-menu hidden md:hidden mt-4 bg-gray-800 rounded-lg p-4">
+                <div class="flex flex-col space-y-4">
+                    <a href="#features" class="text-gray-300 hover:text-white hover:bg-gray-700 p-2 rounded transition-colors duration-300">Features</a>
+                    <a href="#benefits" class="text-gray-300 hover:text-white hover:bg-gray-700 p-2 rounded transition-colors duration-300">Benefits</a>
+                    <a href="#testimonials" class="text-gray-300 hover:text-white hover:bg-gray-700 p-2 rounded transition-colors duration-300">Testimonials</a>
+                    <a href="#about" class="text-gray-300 hover:text-white hover:bg-gray-700 p-2 rounded transition-colors duration-300">About</a>
+                    <a href="#faq" class="text-gray-300 hover:text-white hover:bg-gray-700 p-2 rounded transition-colors duration-300">FAQ</a>
+                    <a href="https://carmanuals.org/shop/?make=Ford&model=Mustang" class="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-2 rounded-lg text-center font-semibold hover:shadow-lg transition-all duration-300">
+                        Get Manual
+                    </a>
+                </div>
             </div>
         </nav>
     </header>
 
     <main>
+        <!-- Hero Section -->
         <section class="relative min-h-screen flex items-center pt-16 overflow-hidden">
             <div class="absolute inset-0 bg-gradient-to-br from-blue-900/20 to-purple-900/20 z-0"></div>
             <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?auto=format&fit=crop&q=80')] bg-cover bg-center opacity-10 z-[-1]"></div>
             
             <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-24 relative z-10">
                 <div class="max-w-4xl">
-                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent animate-fade-in">
                         Ford Mustang Workshop Manuals
                     </h1>
                     <p class="text-xl md:text-2xl text-gray-300 mb-8">
-                        Mustang PDF Manuals for Auto Repair & Maintenance
+                        Complete Digital Workshop Manuals for Every Mustang Generation
                     </p>
                     <div class="flex flex-col sm:flex-row gap-4">
-                        <a href="https://carmanuals.org/shop/?make=Ford&model=Mustang" class="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full text-lg font-semibold hover:scale-105 transform transition duration-300">
+                        <a href="https://carmanuals.org/shop/?make=Ford&model=Mustang" 
+                           class="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full text-lg font-semibold hover:scale-105 transform transition duration-300 hover:shadow-lg hover:shadow-purple-500/20">
                             Download Manual
                         </a>
-                        <a href="#features" class="inline-flex items-center justify-center px-8 py-4 border border-gray-700 rounded-full text-lg font-semibold hover:bg-gray-800 transition duration-300">
+                        <a href="#features" 
+                           class="inline-flex items-center justify-center px-8 py-4 border border-gray-700 rounded-full text-lg font-semibold hover:bg-gray-800 transition duration-300 hover:border-purple-500">
                             Learn More
                         </a>
                     </div>
@@ -54,143 +89,236 @@
             </div>
         </section>
 
+        <!-- Features Section -->
         <section id="features" class="py-24 bg-gray-800/50">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
                 <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
                     Complete Technical Resources
                 </h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                    <div class="bg-gray-800 rounded-2xl p-8 hover:scale-105 transition duration-300">
-                        <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-500 rounded-xl mb-6 flex items-center justify-center">
+                    <div class="bg-gray-800 rounded-2xl p-8 hover:scale-105 transition duration-300 hover:shadow-lg hover:shadow-blue-500/10">
+                        <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-500 rounded-xl mb-6 flex items-center justify-center transform hover:rotate-6 transition-transform duration-300">
                             <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"></path>
                             </svg>
                         </div>
-                        <h3 class="text-xl font-semibold mb-4">Engine Diagrams</h3>
-                        <p class="text-gray-400">Detailed technical illustrations of every engine component and system.</p>
+                        <h3 class="text-xl font-semibold mb-4 text-white">Comprehensive Engine Diagrams</h3>
+                        <p class="text-gray-400">Ultra-detailed technical illustrations covering every engine component, system, and assembly process. Perfect for both basic maintenance and complex repairs.</p>
                     </div>
                     
-                    <div class="bg-gray-800 rounded-2xl p-8 hover:scale-105 transition duration-300">
-                        <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-500 rounded-xl mb-6 flex items-center justify-center">
+                    <div class="bg-gray-800 rounded-2xl p-8 hover:scale-105 transition duration-300 hover:shadow-lg hover:shadow-purple-500/10">
+                        <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-500 rounded-xl mb-6 flex items-center justify-center transform hover:rotate-6 transition-transform duration-300">
                             <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
                             </svg>
                         </div>
-                        <h3 class="text-xl font-semibold mb-4">Wiring Diagrams</h3>
-                        <p class="text-gray-400">Complete electrical system schematics for all model years.</p>
+                        <h3 class="text-xl font-semibold mb-4 text-white">Interactive Wiring Diagrams</h3>
+                        <p class="text-gray-400">Color-coded electrical schematics with clickable components, troubleshooting guides, and complete circuit descriptions for all model years.</p>
                     </div>
                     
-                    <div class="bg-gray-800 rounded-2xl p-8 hover:scale-105 transition duration-300">
-                        <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-500 rounded-xl mb-6 flex items-center justify-center">
+                    <div class="bg-gray-800 rounded-2xl p-8 hover:scale-105 transition duration-300 hover:shadow-lg hover:shadow-blue-500/10">
+                        <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-500 rounded-xl mb-6 flex items-center justify-center transform hover:rotate-6 transition-transform duration-300">
                             <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path>
                             </svg>
                         </div>
-                        <h3 class="text-xl font-semibold mb-4">DIY Auto Repair</h3>
-                        <p class="text-gray-400">Step-by-step repair guides for maintenance and modifications.</p>
+                        <h3 class="text-xl font-semibold mb-4 text-white">Step-by-Step Repair Guides</h3>
+                        <p class="text-gray-400">Detailed DIY procedures with clear photos, torque specifications, and professional tips for successful repairs and modifications.</p>
                     </div>
                     
-                    <div class="bg-gray-800 rounded-2xl p-8 hover:scale-105 transition duration-300">
-                        <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-500 rounded-xl mb-6 flex items-center justify-center">
+                    <div class="bg-gray-800 rounded-2xl p-8 hover:scale-105 transition duration-300 hover:shadow-lg hover:shadow-purple-500/10">
+                        <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-500 rounded-xl mb-6 flex items-center justify-center transform hover:rotate-6 transition-transform duration-300">
                             <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
                             </svg>
                         </div>
-                        <h3 class="text-xl font-semibold mb-4">PDF Format</h3>
-                        <p class="text-gray-400">Instantly downloadable digital manuals for easy reference.</p>
+                        <h3 class="text-xl font-semibold mb-4 text-white">Digital PDF Format</h3>
+                        <p class="text-gray-400">Instantly downloadable manuals optimized for all devices with searchable text, bookmarks, and high-resolution graphics.</p>
                     </div>
                 </div>
             </div>
         </section>
 
+        <!-- Benefits Section -->
         <section id="benefits" class="py-24">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
                 <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
-                    Why Choose Our Manuals
+                    Why Choose Our Workshop Manuals
                 </h2>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-                    <div class="bg-gray-800/50 rounded-2xl p-8 border border-gray-700">
-                        <h3 class="text-xl font-semibold mb-4">Expert Workshop Manual</h3>
-                        <p class="text-gray-400">Created by professional automotive technicians with decades of Mustang experience.</p>
+                    <div class="bg-gray-800/50 rounded-2xl p-8 border border-gray-700 hover:border-purple-500 transition-colors duration-300 hover:shadow-lg hover:shadow-purple-500/20">
+                        <h3 class="text-xl font-semibold mb-4 text-white">Professional Expertise</h3>
+                        <p class="text-gray-400">Created by ASE-certified technicians with over 30 years of combined Mustang experience. Every procedure verified and tested.</p>
                     </div>
-                    <div class="bg-gray-800/50 rounded-2xl p-8 border border-gray-700">
-                        <h3 class="text-xl font-semibold mb-4">Repair Information</h3>
-                        <p class="text-gray-400">Comprehensive troubleshooting and repair procedures for every component.</p>
+                    <div class="bg-gray-800/50 rounded-2xl p-8 border border-gray-700 hover:border-purple-500 transition-colors duration-300 hover:shadow-lg hover:shadow-purple-500/20">
+                        <h3 class="text-xl font-semibold mb-4 text-white">Complete Coverage</h3>
+                        <p class="text-gray-400">From basic maintenance to complex repairs, our manuals cover every system and component with detailed specifications and procedures.</p>
                     </div>
-                    <div class="bg-gray-800/50 rounded-2xl p-8 border border-gray-700">
-                        <h3 class="text-xl font-semibold mb-4">Mustang Guide</h3>
-                        <p class="text-gray-400">Model-specific information covering all generations of Ford Mustang.</p>
+                    <div class="bg-gray-800/50 rounded-2xl p-8 border border-gray-700 hover:border-purple-500 transition-colors duration-300 hover:shadow-lg hover:shadow-purple-500/20">
+                        <h3 class="text-xl font-semibold mb-4 text-white">Lifetime Updates</h3>
+                        <p class="text-gray-400">Free access to all future updates and additions, ensuring your manual stays current with the latest technical information.</p>
                     </div>
                 </div>
             </div>
         </section>
 
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="py-24 bg-gray-800/50">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
+                    What Our Customers Say
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="bg-gray-800 rounded-2xl p-8 hover:scale-105 transition-all duration-300 hover:shadow-lg">
+                        <div class="flex text-yellow-400 mb-4">
+                            ★★★★★
+                        </div>
+                        <p class="text-gray-300 mb-4">"The wiring diagrams saved me hours of troubleshooting on my '67 Fastback. Best investment for any Mustang owner."</p>
+                        <div class="mt-4">
+                            <p class="font-semibold text-white">Mike Johnson</p>
+                            <p class="text-gray-400">Classic Car Restorer</p>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-gray-800 rounded-2xl p-8 hover:scale-105 transition-all duration-300 hover:shadow-lg">
+                        <div class="flex text-yellow-400 mb-4">
+                            ★★★★★
+                        </div>
+                        <p class="text-gray-300 mb-4">"Finally, a manual that explains everything in detail. The step-by-step photos made rebuilding my transmission possible."</p>
+                        <div class="mt-4">
+                            <p class="font-semibold text-white">Sarah Miller</p>
+                            <p class="text-gray-400">DIY Enthusiast</p>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-gray-800 rounded-2xl p-8 hover:scale-105 transition-all duration-300 hover:shadow-lg">
+                        <div class="flex text-yellow-400 mb-4">
+                            ★★★★★
+                        </div>
+                        <p class="text-gray-300 mb-4">"Used these manuals in my shop for years. The technical accuracy and detail is unmatched."</p>
+                        <div class="mt-4">
+                            <p class="font-semibold text-white">Tom Richards</p>
+                            <p class="text-gray-400">Professional Mechanic</p>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-gray-800 rounded-2xl p-8 hover:scale-105 transition-all duration-300 hover:shadow-lg">
+                        <div class="flex text-yellow-400 mb-4">
+                            ★★★★★
+                        </div>
+                        <p class="text-gray-300 mb-4">"The digital format is so convenient. Being able to search and bookmark sections has streamlined my workflow."</p>
+                        <div class="mt-4">
+                            <p class="font-semibold text-white">Lisa Chen</p>
+                            <p class="text-gray-400">Auto Shop Owner</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="py-24">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
+                    About Us
+                </h2>
+                <div class="max-w-3xl mx-auto space-y-8">
+                    <p class="text-gray-300 text-lg leading-relaxed">
+                        Founded in 2005 by a team of passionate Mustang enthusiasts and certified mechanics, we've dedicated ourselves to creating the most comprehensive and user-friendly workshop manuals for Ford Mustang owners. Our journey began in a small garage in Detroit, where we recognized the need for more detailed, accessible repair information.
+                    </p>
+                    <p class="text-gray-300 text-lg leading-relaxed">
+                        Our mission is to empower Mustang owners with the knowledge and confidence to maintain and repair their vehicles. We believe in the importance of detailed, accurate information and continuous learning. Our core values include technical excellence, customer education, and preserving the legacy of America's favorite pony car.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
         <section id="faq" class="py-24 bg-gray-800/50">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
                 <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
                     Frequently Asked Questions
                 </h2>
                 <div class="max-w-3xl mx-auto space-y-6">
-                    <div class="bg-gray-800 rounded-xl p-6">
+                    <div class="bg-gray-800 rounded-xl p-6 hover:shadow-lg transition-all duration-300">
                         <h3 class="text-xl font-semibold mb-4">What formats are the manuals available in?</h3>
-                        <p class="text-gray-400">Our manuals are available in PDF format, optimized for both desktop and mobile devices.</p>
+                        <p class="text-gray-400">Our manuals are provided in searchable PDF format, optimized for both desktop and mobile devices. They include bookmarks, hyperlinks, and high-resolution images that can be zoomed without quality loss.</p>
                     </div>
-                    <div class="bg-gray-800 rounded-xl p-6">
-                        <h3 class="text-xl font-semibold mb-4">Which Mustang years are covered?</h3>
-                        <p class="text-gray-400">We cover all generations of Ford Mustang from 1964 to present models.</p>
+                    
+                    <div class="bg-gray-800 rounded-xl p-6 hover:shadow-lg transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-4">Which Mustang years and models are covered?</h3>
+                        <p class="text-gray-400">We provide comprehensive coverage for all Ford Mustang generations from 1964½ through current models, including special editions like Shelby, Mach 1, and Bullitt variants.</p>
                     </div>
-                    <div class="bg-gray-800 rounded-xl p-6">
-                        <h3 class="text-xl font-semibold mb-4">Are the diagrams high resolution?</h3>
-                        <p class="text-gray-400">Yes, all diagrams are high-resolution vector graphics that can be zoomed without losing quality.</p>
+                    
+                    <div class="bg-gray-800 rounded-xl p-6 hover:shadow-lg transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-4">How often are the manuals updated?</h3>
+                        <p class="text-gray-400">Our manuals are updated quarterly with new technical information, service bulletins, and customer feedback. All updates are free for existing customers.</p>
+                    </div>
+                    
+                    <div class="bg-gray-800 rounded-xl p-6 hover:shadow-lg transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-4">Do you offer technical support?</h3>
+                        <p class="text-gray-400">Yes, we provide email support for any questions about the procedures in our manuals. Our team of certified technicians typically responds within 24 hours.</p>
+                    </div>
+                    
+                    <div class="bg-gray-800 rounded-xl p-6 hover:shadow-lg transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-4">What's your refund policy?</h3>
+                        <p class="text-gray-400">We offer a 30-day money-back guarantee. If you're not completely satisfied with your manual, we'll process a full refund with no questions asked.</p>
                     </div>
                 </div>
             </div>
         </section>
 
+        <!-- CTA Section -->
         <section class="py-24 relative overflow-hidden">
             <div class="absolute inset-0 bg-gradient-to-br from-blue-600/20 to-purple-600/20 z-0"></div>
+            <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&q=80')] bg-cover bg-center opacity-10 z-[-1]"></div>
             <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
                 <div class="max-w-3xl mx-auto text-center">
-                    <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready to Get Started?</h2>
-                    <p class="text-xl text-gray-300 mb-8">Download your Ford Mustang workshop manual today and start working on your car with confidence.</p>
-                    <a href="https://carmanuals.org/shop/?make=Ford&model=Mustang" class="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full text-lg font-semibold hover:scale-105 transform transition duration-300">
-                        Download Now
+                    <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready to Master Your Mustang?</h2>
+                    <p class="text-xl text-gray-300 mb-8">Get instant access to professional-grade repair information and start working on your Mustang with confidence today.</p>
+                    <a href="https://carmanuals.org/shop/?make=Ford&model=Mustang" 
+                       class="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full text-lg font-semibold hover:scale-105 transform transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/20">
+                        Download Your Manual Now
                     </a>
                 </div>
             </div>
         </section>
     </main>
 
+    <!-- Footer -->
     <footer class="bg-gray-800/50 border-t border-gray-800">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
                 <div>
                     <h3 class="text-xl font-bold mb-4">Contact</h3>
-                    <p class="text-gray-400">contact@mustangworkshopmanual.com</p>
+                    <p class="text-gray-400 hover:text-white transition-colors duration-300">contact@mustangworkshopmanual.com</p>
                 </div>
                 <div>
                     <h3 class="text-xl font-bold mb-4">Quick Links</h3>
                     <ul class="space-y-2">
-                        <li><a href="#features" class="text-gray-400 hover:text-white transition-colors">Features</a></li>
-                        <li><a href="#benefits" class="text-gray-400 hover:text-white transition-colors">Benefits</a></li>
-                        <li><a href="#faq" class="text-gray-400 hover:text-white transition-colors">FAQ</a></li>
+                        <li><a href="#features" class="text-gray-400 hover:text-white transition-all duration-300">Features</a></li>
+                        <li><a href="#benefits" class="text-gray-400 hover:text-white transition-all duration-300">Benefits</a></li>
+                        <li><a href="#testimonials" class="text-gray-400 hover:text-white transition-all duration-300">Testimonials</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-white transition-all duration-300">About</a></li>
+                        <li><a href="#faq" class="text-gray-400 hover:text-white transition-all duration-300">FAQ</a></li>
                     </ul>
                 </div>
                 <div>
                     <h3 class="text-xl font-bold mb-4">Legal</h3>
                     <ul class="space-y-2">
-                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Privacy Policy</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Terms of Service</a></li>
+                        <li><a href="https://mixremote.github.io/ford-mustang-workshop-manuals-2025-03-25-tj65n/privacy.html" class="text-gray-400 hover:text-white transition-all duration-300">Privacy Policy</a></li>
+                        <li><a href="https://mixremote.github.io/ford-mustang-workshop-manuals-2025-03-25-tj65n/terms.html" class="text-gray-400 hover:text-white transition-all duration-300">Terms of Service</a></li>
+                        <li><a href="https://mixremote.github.io/ford-mustang-workshop-manuals-2025-03-25-tj65n/blog.html" class="text-gray-400 hover:text-white transition-all duration-300">Blog</a></li>
                     </ul>
                 </div>
                 <div>
                     <h3 class="text-xl font-bold mb-4">Follow Us</h3>
                     <div class="flex space-x-4">
-                        <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <a href="#" class="text-gray-400 hover:text-white transition-all duration-300 hover:scale-110">
                             <span class="sr-only">Facebook</span>
                             <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
                         </a>
-                        <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <a href="#" class="text-gray-400 hover:text-white transition-all duration-300 hover:scale-110">
                             <span class="sr-only">Twitter</span>
                             <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg>
                         </a>
@@ -202,5 +330,18 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.
 </body>
 </html>
